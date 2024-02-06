@@ -27,6 +27,11 @@
 //
 #include <Base32-Decode.h>
 
+// Include time lib
+#include <lwip/apps/sntp.h>
+
+#include <Arduino.h>
+
 class TOTP {
   public:
 
